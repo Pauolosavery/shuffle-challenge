@@ -1,20 +1,20 @@
-## Перемешивание массива
+## Shuffle an array
  
-В этой задаче тебе предстоит написать метод shuffle(), который в случайном порядке перемешивает все элементы массива
+In this task, you have to write a shuffle() method that shuffles all the elements of the array in random order
 
-Если тебе сложно разработать собственный алгоритм перемешивания, попробуй реализовать [алгоритм тасования Фишера-Йетса](https://ru.wikipedia.org/wiki/Тасование_Фишера_—_Йетса).
+If you have trouble developing your own shuffle algorithm, try implementing [the Fisher-Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher–Yates_shuffle).
 
 
 
-### Релиз 0.
+### Release 0.
 
-Напиши метод `shuffle()`, который принимает массив и возвращает новый массив со всеми элементами в случайном порядке. Одно важное свойство хорошего метода `shuffle()` состоит в том, что каждая перестановка одинаково вероятна.
+Write a `shuffle()` method that receives an array and returns a new array with all the elements in a random order. One important property of a good `shuffle()` method is that every transposition is equally likely.
 
-*Примечание:* Хотя это и не обязательно, ты можешь использовать `Math.random()`.
+*Note:* Although not required, you can use `Math.random()`.
 
-**Правила и ограничения:**
+**Rules and restrictions:**
 
-- твой метод всегда будет менять порядок элементов на его входе. Хотя можно перетасовать массив и получить элементы в том же порядке, мы не допустим этого.
-- твой метод не должен изменять входные данные (метод должен быть неразрушающим).
+- Your method will always change the order of the elements on its input. Although you can shuffle the array and get the elements in the same order, we won't allow that.
+- your method must not change the input (the method must be non-destructive).
 
-Не забудь написать тесты для проверки своего метода.
+Don't forget to write tests to check your method.
